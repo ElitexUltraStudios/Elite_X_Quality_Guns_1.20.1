@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved, Creative Commons Attribution"
+## issueTrackerURL=""
+
+[[mods]]
+modId="elitex"
+version="3.2"
+displayName="Elite X Quality Guns"
+authors="Elite X Studios"
+credits="Big thanks to ifibers for helping me with the textures"
+description="Elite x Quality Guns brings a fresh arsenal of immersive and reimagined firearms to the Tacz Mod. Some weapons are inspired by iconic video games, offering unique designs and features never seen before in Minecraft."
+## updateJSONURL=""
+displayURL="https://www.curseforge.com/minecraft/mc-mods/elite-x-quality-guns"
+logoFile = "icon.png"
+
+[[dependencies.elitex]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.elitex]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies."elitex"]]
+modId="tacz"
+mandatory=true
+versionRange="[1.1.4,)"
+ordering="NONE"
+side="BOTH"
+
+[modproperties."catalogue"]
+catalogueImageIcon="icon.png"
+#catalogueBackground="catalogue_background.png"
+configuredBackground="minecraft:textures/block/stone.png"

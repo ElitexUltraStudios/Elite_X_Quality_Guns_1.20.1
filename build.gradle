@@ -13,9 +13,9 @@ apply plugin: 'maven-publish'
 
 
 
-version = "3.0"
+version = "3.2"
 group = "com.elitexstudios.elitex"
-archivesBaseName = "Elite X Quality Guns"
+archivesBaseName = "Elite X Quality Guns Forge"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -80,9 +80,9 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
-    //implementation fg.deobf("curse.maven:timeless-and-classics-zero-1028108:5722050")
-    implementation fileTree(dir: 'libs/libraries', include: ['*.jar'])
-    implementation ('mod:tacz-1.20.1-1209-074221-all')
+    implementation fg.deobf("curse.maven:timeless-and-classics-zero-1028108:6058563")
+    //implementation fileTree(dir: 'libs/libraries', include: ['*.jar'])
+    //implementation ('mod:tacz-1.20.1-1209-074221-all')
     runtimeOnly fg.deobf('curse.maven:jei-238222:4712868')
 }
 

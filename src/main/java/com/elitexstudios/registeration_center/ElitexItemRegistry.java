@@ -30,6 +30,7 @@ public class ElitexItemRegistry {
                 }
             });
 
-    //Add More items here
+      //Add More items here i am leaving this line here disabled if anything i want to add customs items  for crafting purposes in the future they will go here
+      //public static final RegistryObject<Item> SULPHUR = ITEMS.register("sulphur", () -> new Item(new Item.Properties()));
 
 }
